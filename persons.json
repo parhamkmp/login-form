@@ -1,0 +1,34 @@
+[
+	{
+		"username":"parhamKMP",
+		"password":"5523",
+		"name":"parham",
+		"lastname":"karimipoor",
+		"age":15,
+		"email":"p1386karimipoor@gmail.com"
+	},
+	{
+		"username":"arkantos1482",
+		"password":"1482",
+		"name":"abbas",
+		"lastname":"MostakhteminHosseini",
+		"age":29,
+		"email":"abbasMOS@gmail.com"
+	},
+	{
+		"username":"ali-554",
+		"password":"8567",
+		"name":"ali",
+		"lastname":"Ukani",
+		"age":56,
+		"email":"aliUkani@gmail.com"
+	},
+	{
+		"username":"RezaHashemi",
+		"password":"7895",
+		"name":"reza",
+		"lastname":"Hashem",
+		"age":12,
+		"email":"reza-HSM@gmail.com"
+	}
+]

@@ -1,0 +1,47 @@
+body{
+	background-image: url('../stars.jpg');
+	background-attachment: fixed;
+}
+
+
+.frm{
+	background-color: #077fff0f;
+	border: #0064ff4d  0.5px solid;
+	border-radius: 7px;
+}
+
+.img{
+	width: 180px;
+	height: 180px;
+}
+
+.userPanel,.followingUsers,.followersUsers{
+	width: 98%;	
+	background-color: #077fff0f;
+	border: #0064ff4d  0.5px solid;
+	border-radius: 7px;
+}
+
+
+
+.bio-code,.create-code,.location-code{
+	font-size: 20px; 
+	font-family: arial;
+	border: 1px solid green;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+.imgFLLOW{
+	width: 120px;
+	height: 120px;
+}
+
+
+
+.imgFLLOW2{
+	width: 120px;
+	height: 120px;
+}
+

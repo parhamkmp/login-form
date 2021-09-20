@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN with Json</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+</head>
+<body style="font-family: arial black;background-color: darkblue">
+
+
+	<!-- LOGIN FORM -->
+
+<div class="frm container mt-5 font-weight-bold col-11 col-sm-8">
+
+<div class="form-group  text-light p-2">
+	<label class="form-check-label">Username:</label>
+	<input type="text" id="user" class="form-control  font-weight-bold" placeholder="Username">
+</div>
+
+<div class="form-group  text-light p-2">
+	<label class="form-check-label">Password:</label>
+	<input type="text" id="pass" class="form-control font-weight-bold" placeholder="Password">
+	<button class="btn btn-primary mt-3 col-12 col-sm-2 col-md-2 col-xl-2 badge-pill">LOGIN</button>
+	<a href="JSON/persons.json" target="_blank" type="button" class="btn btn-link text-light mt-3 col-12 col-sm-3 col-md-3 col-xl-3">users info JSON</a>
+	<label class="mt-3 pp alert bg-secondary col-12 col-sm-5 d-block">*Pleas Type Username and Password</label>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- USERS -->
+<button class="goBackL btn btn-outline-warning d-none">Go Back Login</button>
+
+<div class="ml-lg-3 ml-1 p-3 mt-2 text-lg-center text-center userPanel offset-12 text-light d-none fade">
+	<button class="btn btn-outline-danger float-left flws">followers
+	 	<span class="bg-primary badge-pill text-light flwsN">0</span>
+	</button>
+
+	<button class="btn btn-outline-danger float-right flwn">following 
+		<span class="bg-primary badge-pill text-light flwnN">0</span>
+	</button>
+
+	<img class="img rounded-circle">
+	<h1 class="p-2  badge-pill col-lg-5 container mt-2 col-md-5 usr"></h1><span class="text-muted mt-1 name"></span>
+	<h3 class="col-lg-5 container text-left text-success mt-3">Bio:
+		<code class="text-muted d-block bio-code"></code>
+	</h3>
+
+	<h3 class="col-lg-5 container text-left text-success">created at:
+		<code class="text-muted d-block create-code"></code>
+	</h3>
+
+	<h3 class="col-lg-5 container text-left text-success">Location:
+		<code class="text-muted d-block location-code"></code>
+	</h3>
+
+	<a class="mt-5 mb-0 text-primary id">@ GitHub Profile api | VIEW PROFILE</a>
+</div>
+
+
+
+
+
+<!-- Followings User -->
+
+<div class="ml-lg-3 ml-1 p-3 mt-2  offset-5 text-light d-none flowi">
+<label class="float-left ml-lg-auto">Followings</label>
+<button class="goBackI btn btn-outline-warning">Go Back</button>
+	<div class="container bootstrap col-sm-4 float-left mt-lg-5">
+		
+	</div>
+	
+</div>
+
+
+<!-- Followers User -->
+
+<div class="ml-lg-3 ml-1 p-3 mt-2  offset-5 text-light d-none flows">
+<label class="float-left ml-lg-auto">Followers</label>
+<button class="goBackS btn btn-outline-warning">Go Back</button>
+	<div class="container bootstrap2 col-sm-4 float-left mt-lg-5">
+		
+	</div>
+	
+</div>
+
+<script src="script/jquery_min.js"></script>
+<script src="script/bootstrap.bundle.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
